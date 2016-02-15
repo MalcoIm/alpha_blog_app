@@ -1,4 +1,12 @@
-// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+//$navbar-default-bg:#4aa3df;
+
+navFont {
+    
+    color: azure;
+    
+}
+    
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
