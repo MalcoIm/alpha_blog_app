@@ -5,7 +5,33 @@ navFont {
     color: azure;
     
 }
+
+.jumbotron {
     
+    background-image: asset-url('snow.png');
+    background-size: cover;
+}
+
+#mainText {
+    
+    color:firebrick;
+}
+
+.footer small {
+    
+    
+    float: left;
+}
+
+.footer ul li {
+    
+    list-style: none;
+    float: right;
+    margin: 5px;
+    
+}
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 

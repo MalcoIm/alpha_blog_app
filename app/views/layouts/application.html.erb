@@ -10,7 +10,10 @@
     
     <%= render 'articles/navigation' %>
     <%= render 'layouts/messages' %>
-    <%= yield %>
-
+        <div class="container">
+            <%= yield %>
+        </div>
+    <%= render 'layouts/footer' %>
+    
 </body>
 </html>

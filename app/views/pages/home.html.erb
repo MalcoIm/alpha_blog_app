@@ -1,9 +1,14 @@
-<div class="container text-center jumbotron">
+<div class="container">
 
-<h1>This is my Alpha Blog<small> Its just the begining...</small></h1>
+    <div id="mainText" class="jumbotron text-center"><h1>This is my Alpha Blog<br/><small> Its just the begining... </small></h1>
 
-<%= link_to 'Alpha Blog', articles_path %> | <%= link_to "About", about_path %>
+       <P> <%= link_to 'Sign up now', '#', class: "btn btn-primary btn-lg" %></P>
+    
 
+        <p><%= link_to 'Alpha Blog', articles_path %> | <%= link_to "About", about_path %></p>
+
+    </div>
+    
 </div>
 
 
@@ -14,7 +19,7 @@
 
 <!---<p>This is a Picture</p><br/> 
 
-<%= link_to image_tag('scotland.jpeg'), 'http://www.example.com' %>
+
 
 --->
 
