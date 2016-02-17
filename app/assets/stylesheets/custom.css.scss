@@ -43,6 +43,28 @@ navFont {
     
 }
 
+.bottomPadding {
+    
+    margin-bottom: 15px;
+    
+}
+
+.article-title {
+    
+    font-weight: bold;
+    font-size: 1.5em;
+    
+}
+
+.article-body {
+    
+    border-top: 1px sold #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
