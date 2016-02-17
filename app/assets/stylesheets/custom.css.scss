@@ -8,13 +8,13 @@ navFont {
 
 .jumbotron {
     
-    background-image: asset-url('snow.png');
+    background-image: asset-url('bridge.jpg');
     background-size: cover;
 }
 
 #mainText {
     
-    color:firebrick;
+    color:#2980ba;
 }
 
 .footer small {
@@ -29,6 +29,11 @@ navFont {
     float: right;
     margin: 5px;
     
+}
+
+.aboutText {
+    
+    color:#2980ba;
 }
 
 
