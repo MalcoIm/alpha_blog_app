@@ -1,3 +1,5 @@
+<h1 align="center">Sign up for Alpha Blog</h1>
+
 <%= render 'shared/errors', obj: @user %>
 
         <div class="row">
@@ -27,7 +29,7 @@
                                 <%= f.label :password %>
                             </div>
                                 <div class="col-sm-8">
-                                    <%= f.password_field :email, class: "form-control", placeholder: "Enter a Password", autofocus: true %>    
+                                    <%= f.password_field :password, class: "form-control", placeholder: "Enter a Password", autofocus: true %>    
                                 </div>
 
 
@@ -36,7 +38,7 @@
                         <div class="form-group">
                             <div class="col-sm-12">
 
-                                <%= f.submit class: "btn btn-primary btn-lg center-block" %>
+                                <%= f.submit "Sign Up", class: "btn btn-primary btn-lg center-block" %>
                             
                             </div>       
                         </div>
