@@ -40,6 +40,7 @@ class ArticlesController < ApplicationController
     
     def show
         #method
+        
     end
     
     def destroy

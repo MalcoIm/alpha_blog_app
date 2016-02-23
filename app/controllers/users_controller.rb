@@ -1,5 +1,14 @@
+#Class
+
 class UsersController < ApplicationController
+    
+    def index
+        @users = User.all 
+    end
+    
+    #Method
     def new
+        #Instance Variable
         @user = User.new
     end
     
@@ -35,7 +44,6 @@ class UsersController < ApplicationController
         end
     end
     
-
     private
     
     def user_params

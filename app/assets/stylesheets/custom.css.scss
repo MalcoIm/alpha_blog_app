@@ -70,6 +70,16 @@ navFont {
     margin-top: 15px;
 }
 
+.listStyle {
+    
+    list-style: none;
+    padding: 5px;
+}
+
+.buffer {
+    
+    padding-top: 10px;
+}
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
